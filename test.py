@@ -2,8 +2,8 @@ from telethon import TelegramClient, events, sync
 from db_helper import DBHelper
 
 db = DBHelper()
-api_id = 427808
-api_hash = '7399ee2f5b9ed4556ed519a921a9ed5f'
+api_id = 0
+api_hash = ''
 client = TelegramClient('session_name', api_id, api_hash)
 client.start()
 limit = 100
